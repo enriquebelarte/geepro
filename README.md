@@ -1,7 +1,6 @@
 This code is completely based on original https://sourceforge.net/projects/geepro/ and this is just some correction to make it work in present distros.
 
-I wanted some EPROM programmer software which would work on GNU/Linux for SPS200S v2.00 board and I found the above repo 
-that seemed quite abandoned. Wine was not an option and this seemed to be at first sight the only working project with SPS200S.
+I wanted some EPROM programmer software which would work on GNU/Linux and I found the above repo that seemed quite abandoned. Wine was not an option and this seemed to be at first sight the only working project with SPS200S.
 
 Following its README instructions I got an error in the first `waf configure` step:
 
@@ -31,4 +30,4 @@ python2 waf install
 
 Then ```geepro``` executable is available at ```/usr/local/bin```.
 
-Hope it is useful for anyone looking for writing EPROMs with this board.
+Hope it is useful for anyone looking for writing EPROMs.
